@@ -2,7 +2,7 @@ from flask import Flask
 from flask import render_template
 app = Flask(__name__)
 
-@app.route('')
+@app.route('/')
 def homepage():
     #Print("Is this thing on?")
     return "<h1>Hello World!</h1>"
